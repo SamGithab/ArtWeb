@@ -1,0 +1,19 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:'Roboto',sans-serif;
+}
+.pictures{
+    background-image: url(abstract.jfif);
+    width:200px;
+    height:230px;
+    display:inline-flex;
+    border-radius: 10px;
+    padding:15px 25px;
+    box-sizing:border-box;
+    cursor:pointer;
+    margin:10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition:transform 0.5s;
+}
